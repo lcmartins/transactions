@@ -21,7 +21,7 @@
     * mockk
     * junit
 
-#### versionamento
+#### versionamento da api
 * incluindo no path da rota a versão (no caso v1)
     * ex: v1/account onde account é um controller na versão 1
     * numa próxima versão poderíamos ter:
