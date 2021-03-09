@@ -6,16 +6,20 @@
     * o numero da conta é único
     * um cliente pode ter mais de uma conta
     * uma transferência pode ser feita entre duas contas independente do dono
-    * uma transferência sempre gera uma transação mesmo em caso de falha na trasnsferência (requisitos)
+    * uma transferência sempre gera uma transação mesmo em caso de 
+    falha na trasnsferência (requisitos)
     * máximo de 1000.00 por trasnferência
     * a conta de origem precisa ter saldo suficiente para fazer a trasnferência
     
 #### tecnologias:
+    * java 11
     * kotlin
     * springboot
     * swagger
     * h2
     * jpa
+    * mockk
+    * junit
     
 #### como usar:
 * existe uma collection na raiz do projeto que pode ser utilizada para 
