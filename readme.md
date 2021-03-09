@@ -23,7 +23,9 @@
 
 #### versionamento
 * incluindo no path da rota a versão (no caso v1)
-    * ex: v1/account
+    * ex: v1/account onde account é um controller na versão 1
+    * numa próxima versão poderíamos ter:
+      * v2/account onde teríamos uma nova versão deste controller no caso a v2
     
 #### como usar:
 * existe uma collection na raiz do projeto que pode ser utilizada para 
