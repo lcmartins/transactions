@@ -1,4 +1,4 @@
-# Api de transferências - como usar a api
+# Api de transferências - como usar
 
 ### Documentação de referência
 
@@ -20,6 +20,10 @@
     * jpa
     * mockk
     * junit
+
+#### versionamento
+* incluindo no path da rota a versão (no caso v1)
+    * ex: v1/account
     
 #### como usar:
 * existe uma collection na raiz do projeto que pode ser utilizada para 

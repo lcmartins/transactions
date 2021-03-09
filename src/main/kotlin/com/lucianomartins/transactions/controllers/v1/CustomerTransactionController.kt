@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RequestParam
 import org.springframework.web.bind.annotation.RestController
 
 @RestController
-@RequestMapping("customer-transactions")
+@RequestMapping("v1/customer-transactions")
 @Api(value = "customer transactions")
 class CustomerTransactionController(val findTransactionsByAccount: FindTransactionsByAccount) {
 

@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.*
 import javax.validation.Valid
 
 @RestController
-@RequestMapping("account")
+@RequestMapping("v1/account")
 @Api(value = "account api")
 class AccountController(val openAccount: OpenAccount, val makeTransfer: MakeTransfer) {
     @ApiResponses( value = [

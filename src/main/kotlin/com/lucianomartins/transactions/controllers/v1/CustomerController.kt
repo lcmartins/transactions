@@ -14,7 +14,7 @@ import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.*
 
 @RestController
-@RequestMapping("customer")
+@RequestMapping("v1/customer")
 @Api(value = "customer")
 class CustomerController(
     val findCustomerByAccount: FindCustomerByAccount,
