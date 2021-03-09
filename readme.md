@@ -1,4 +1,4 @@
-# Como usar a api
+# Api de transferências - como usar a api
 
 ### Documentação de referência
 
@@ -7,7 +7,7 @@
     * um cliente pode ter mais de uma conta
     * uma transferência pode ser feita entre duas contas independente do dono
     * uma transferência sempre gera uma transação mesmo em caso de 
-    falha na trasnsferência (requisitos)
+    falha na transferência (requisitos)
     * máximo de 1000.00 por trasnferência
     * a conta de origem precisa ter saldo suficiente para fazer a trasnferência
     
